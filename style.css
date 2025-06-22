@@ -3,8 +3,8 @@
    "how to change link color." */
    
 @font-face {
-  font-family: 'Germania One';
-  src: url('GermaniaOne-Regular.ttf');
+  font-family: 'Frutiger';
+  src: url('Frutiger.ttf');
 
 }
 
@@ -12,7 +12,7 @@ body {
   background: rgb(255,255,157);
   background: radial-gradient(circle, rgba(255,255,157,1) 0%, rgba(255,255,99,1) 35%, rgba(255,255,37,1) 100%);
   color: black;
-  font-family: 'Germania One';
+  font-family: 'Frutiger';
 }
 
 h1 {
