@@ -15,19 +15,17 @@ body {
   font-family: 'Frutiger';
 }
 
-h1 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
-td {
+h1, h2, h3, td {
   text-align: center;
 }
 
 .center {
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
