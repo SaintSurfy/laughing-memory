@@ -32,11 +32,11 @@ h1, h2, h3, td {
   margin: auto;
 }
 
+.nav {
+	margin-right: 10px;
+}
+
 table, th, td {
   border: 1px solid;
   border-collapse: collapse;
-}
-
-a {
-	margin-right: 10px;
 }
