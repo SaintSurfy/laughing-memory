@@ -9,8 +9,11 @@
 }
 
 body {
-  background: rgb(255,255,157);
-  background: radial-gradient(circle, rgba(255,255,157,1) 0%, rgba(255,255,99,1) 35%, rgba(255,255,37,1) 100%);
+  background: hsla(0, 0%, 100%, 1);
+	background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
+	background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
+	background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#F0C023", GradientType=1 );
   color: black;
   font-family: 'Frutiger';
 }
