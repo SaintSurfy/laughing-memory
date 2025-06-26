@@ -35,7 +35,8 @@ h1, h2, h3, td {
   margin: auto;
 }
 
-.nav {
+.backlink {
+	color: white;
 	margin-right: 10px;
 }
 
