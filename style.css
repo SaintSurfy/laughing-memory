@@ -38,6 +38,7 @@ h1, h2, h3, td {
 .backlink {
 	color: white;
 	margin-right: 10px;
+	text-align: center;
 }
 
 table, th, td {
