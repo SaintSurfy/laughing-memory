@@ -55,12 +55,12 @@ table {
 
 th, td {
   border: 2px solid olive;
-  background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(43, 74%, 49%, 1) 75%);
+  background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(43, 74%, 49%, 1) 75%);
 }
 
 .nav {
-	border: 2px solid navy;
-	background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(258, 10%, 38%, 1) 100%);
+	border: 2px solid gray;
+	background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(258, 10%, 38%, 1) 75%);
 }
 
 a {
