@@ -1,21 +1,7 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-   
-@font-face {
-  font-family: 'Frutiger';
-  src: url('Frutiger.ttf');
-
-}
-
 body {
-  background: hsla(0, 0%, 100%, 1);
-	background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
-	background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
-	background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#F0C023", GradientType=1 );
+  background-color: gold;
   color: black;
-  font-family: 'Frutiger';
+	font-family: 'Times New Roman'
 }
 
 h1, h2, h3, td {
@@ -36,12 +22,29 @@ h1, h2, h3, td {
 }
 
 .backlink {
-	color: white;
 	margin-right: 10px;
 	text-align: center;
 }
 
-table, th, td {
-  border: 1px solid;
+table {
+  border: 0px solid;
   border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid olive;
+  background-color: goldenrod;
+}
+
+.nav {
+	border: 2px solid violet;
+	background-color: gray;
+}
+
+a {
+  color: crimson;
+}
+
+a:hover {
+  color: snow;
 }
