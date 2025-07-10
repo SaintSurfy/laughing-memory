@@ -1,72 +1,69 @@
-/* Color Palette
---gold-metallic: #d4af37ff;
---white: #fcfcfcff;
---bright-pink-crayola: #f7567cff;
---tiffany-blue: #99e1d9ff;
---wenge: #5d576bff;
-
-$gold-metallic: rgba(212, 175, 55, 1);
-$white: rgba(252, 252, 252, 1);
-$bright-pink-crayola: rgba(247, 86, 124, 1);
-$tiffany-blue: rgba(153, 225, 217, 1);
-$wenge: rgba(93, 87, 107, 1); */
-
-@font-face {
-  font-family: "Segoe UI";
-  src: url("Segoe UI.ttf");
-}
-
 body {
-  background: hsla(0, 0%, 100%, 1);
-	background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
-	background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
-	background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(46, 87%, 54%, 1) 80%, hsla(46, 65%, 52%, 1) 100%);
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#F0C023", GradientType=1 );
-  color: black;
-	font-family: 'Segoe UI'
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3, td {
-  text-align: center;
+h1, h2, h3, p {
+    text-align: center;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    width: 50%;
+    display: block;
 }
 
 .center {
-  margin-left: auto;
-  margin-right: auto;
-  margin: auto;
-}
-
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin: auto;
-}
-
-.backlink {
-	margin-right: 10px;
-	text-align: center;
-}
-
-table {
-  border: 0px solid;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 2px solid olive;
-  background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(43, 74%, 49%, 1) 75%);
-}
-
-.nav {
-	border: 2px solid gray;
-	background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(258, 10%, 38%, 1) 75%);
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 a {
-  color: crimson;
+    color: yellow;
 }
 
 a:hover {
-  color: snow;
+    color: peachpuff;
 }
+
+#description {
+    font-size: medium;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.resources {
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+img.resources {
+    display: block;
+    width: "50%"; 
+}
+
+a.resources {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+
+
+.nav {
+    background-color:grey;
+}
+
+.blink {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
